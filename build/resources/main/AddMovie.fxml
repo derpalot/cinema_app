@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cinema.Controller.AddMovieController">
+   <children>
+      <Label layoutX="296.0" layoutY="44.0" text="Add Movie">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="151.0" text="Title: " />
+      <TextField fx:id="titleInput" layoutX="166.0" layoutY="146.0" promptText="E.g: Batman Begins" />
+      <Label layoutX="110.0" layoutY="190.0" text="Synopsis:" />
+      <TextField fx:id="synopsisInput" layoutX="166.0" layoutY="186.0" prefHeight="26.0" prefWidth="226.0" promptText="E.g: Man scared of bats becomes bat" />
+      <Label layoutX="123.0" layoutY="225.0" text="Rating:" />
+      <TextField fx:id="ratingInput" layoutX="166.0" layoutY="220.0" promptText="E.g: M" />
+      <Label layoutX="85.0" layoutY="257.0" text="Release Date:" />
+      <TextField fx:id="releaseDateInput" layoutX="166.0" layoutY="252.0" promptText="E.g: 2005-06-15" />
+      <Label layoutX="113.0" layoutY="291.0" text="Director:" />
+      <TextField fx:id="directorInput" layoutX="167.0" layoutY="286.0" promptText="E.g: Christopher Nolan" />
+      <Label layoutX="132.0" layoutY="328.0" text="Cast:" />
+      <TextField fx:id="castInput" layoutX="166.0" layoutY="323.0" prefHeight="26.0" prefWidth="378.0" promptText="E.g: Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, ..." />
+      <Label layoutX="111.0" layoutY="365.0" text="Location:" />
+      <TextField fx:id="locationInput" layoutX="166.0" layoutY="361.0" promptText="E.g: Parramatta" />
+      <Label layoutX="130.0" layoutY="401.0" text="Time:" />
+      <TextField fx:id="timeInput" layoutX="166.0" layoutY="396.0" promptText="E.g: 2021-11-01T10:00" />
+      <Label layoutX="93.0" layoutY="434.0" text="Screen Size:" />
+      <TextField fx:id="screenSizeInput" layoutX="166.0" layoutY="429.0" promptText="E.g: bronze" />
+      <Label layoutX="47.0" layoutY="470.0" text="No. Front Row Seats:" />
+      <TextField fx:id="frontRowSeatsInput" layoutX="166.0" layoutY="466.0" promptText="E.g: 30" text="30" />
+      <Label layoutX="38.0" layoutY="504.0" text="No. Middle Row Seats:" />
+      <TextField fx:id="middleRowSeatsInput" layoutX="166.0" layoutY="500.0" promptText="E.g: 30" text="30" />
+      <Label layoutX="48.0" layoutY="539.0" text="No. Back Row Seats:" />
+      <TextField fx:id="backRowSeatsInput" layoutX="166.0" layoutY="534.0" promptText="E.g: 30" text="30" />
+      <Button fx:id="addButton" layoutX="168.0" layoutY="576.0" mnemonicParsing="false" onAction="#addButtonOnAction" text="Add" />
+      <Label fx:id="errorLabel" layoutX="230.0" layoutY="580.0" />
+      <Button fx:id="backButton" layoutX="736.0" layoutY="576.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+   </children>
+</AnchorPane>

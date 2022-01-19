@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cinema.Controller.GiftCardsController">
+   <children>
+      <TableView fx:id="giftCardsTable" layoutX="106.0" layoutY="124.0" prefHeight="194.0" prefWidth="375.0">
+        <columns>
+          <TableColumn fx:id="giftCardNumberColumn" prefWidth="75.0" text="Number" />
+          <TableColumn fx:id="giftCardBalanceColumn" prefWidth="75.0" text="Balance" />
+            <TableColumn fx:id="giftCardStatusColumn" prefWidth="75.0" text="Status" />
+            <TableColumn fx:id="redeemButtonColumn" prefWidth="75.0" text="Redeem" />
+            <TableColumn fx:id="deleteButtonColumn" prefWidth="75.0" text="Delete" />
+        </columns>
+      </TableView>
+      <Label layoutX="97.0" layoutY="14.0" text="Fancy Cinemas Gift Cards">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="542.0" layoutY="381.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+      <Button layoutX="444.0" layoutY="349.0" mnemonicParsing="false" onAction="#addGiftCardButtonOnAction" text="Add" />
+      <TextField fx:id="giftCardNumberInput" layoutX="85.0" layoutY="349.0" prefHeight="26.0" prefWidth="177.0" promptText="E.g: 1234567890123456GC" />
+      <TextField fx:id="giftCardBalanceInput" layoutX="274.0" layoutY="349.0" promptText="E.g: 50" />
+      <Label layoutX="86.0" layoutY="331.0" text="Gift Card Number: " />
+      <Label layoutX="277.0" layoutY="331.0" text="Gift Card Balance: " />
+      <Label fx:id="errorLabel" layoutX="14.0" layoutY="66.0" />
+      <Button layoutX="387.0" layoutY="94.0" mnemonicParsing="false" onAction="#refreshTableButtonOnAction" text="Refresh Table" />
+   </children>
+</AnchorPane>

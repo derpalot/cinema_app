@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cinema.Controller.PaymentController">
+   <children>
+      <Label layoutX="227.0" layoutY="25.0" text="Checkout">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="107.0" text="Card Name:" />
+      <TextField fx:id="cardName" layoutX="99.0" layoutY="124.0" />
+      <Label layoutX="99.0" layoutY="180.0" text="Card Number" />
+      <Line endX="100.0" endY="-39.0" layoutX="200.0" layoutY="222.0" startX="100.0" startY="-129.0" />
+      <Label layoutX="290.0" layoutY="187.0" text="OR" />
+      <Line endX="100.0" endY="-39.0" layoutX="200.0" layoutY="336.0" startX="100.0" startY="-129.0" />
+      <Label layoutX="327.0" layoutY="107.0" text="Gift Card Number:" />
+      <TextField fx:id="giftCardNumber" layoutX="327.0" layoutY="124.0" />
+      <Button fx:id="payWithCardButton" layoutX="149.0" layoutY="240.0" mnemonicParsing="false" onAction="#payWithCardButtonOnAction" text="Pay" />
+      <Button fx:id="payWithGiftCardButton" layoutX="388.0" layoutY="167.0" mnemonicParsing="false" onAction="#payWithGiftCardButtonOnAction" text="Pay" />
+      <Label fx:id="resultLabel" layoutX="230.0" layoutY="314.0" />
+      <PasswordField fx:id="cardNumber" layoutX="99.0" layoutY="197.0" />
+      <Button fx:id="cancelButton" layoutX="530.0" layoutY="360.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" text="Cancel" />
+   </children>
+</AnchorPane>

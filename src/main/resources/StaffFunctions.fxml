@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cinema.Controller.StaffFunctionsController">
+   <children>
+      <Label layoutX="129.0" layoutY="25.0" text="Staff Functions">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="59.0" layoutY="158.0" mnemonicParsing="false" onAction="#editUpcomingMoviesButtonOnAction" text="Edit Upcoming Movies" />
+      <Button layoutX="309.0" layoutY="158.0" mnemonicParsing="false" onAction="#editGiftCardsButtonOnAction" text="Edit Gift Cards" />
+      <Button layoutX="427.0" layoutY="301.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+      <Button layoutX="42.0" layoutY="231.0" mnemonicParsing="false" onAction="#downloadUpcomingMoviesButtonOnAction" text="Download Upcoming Movies" />
+      <Button layoutX="276.0" layoutY="231.0" mnemonicParsing="false" onAction="#downloadMovieBookingsButtonOnAction" text="Download Movie Bookings" />
+   </children>
+</AnchorPane>

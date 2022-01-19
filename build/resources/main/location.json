@@ -1,0 +1,383 @@
+[
+    {
+        "location": "Parramatta",
+        "movie" : {
+            "Batman Begins" : {
+                "2021-10-21T10:00": {
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze" : {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-21T12:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-21T17:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T14:00" : {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "The Prestige" : {
+                "2021-10-22T10:00": {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-22T12:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T10:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T14:00" : {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "The Dark Knight" : {
+                "2021-10-21T11:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-21T14:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T09:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T14:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "Inception" : {
+                "2021-10-21T10:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-21T12:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-21T17:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T14:00" : {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            }
+            }
+    },
+    {
+        "location": "Burwood",
+        "movie" :
+            {
+            "Batman Begins" : {
+                "2021-10-24T08:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-24T12:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-26T17:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "The Dark Knight" : {
+                "2021-10-23T10:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-26T14:00" : {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "Inception" : {
+                "2021-10-21T10:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-21T12:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-22T17:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-23T14:00" : {
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            }
+            }
+    },
+    {
+        "location": "Wollongong",
+        "movie" :
+            {
+            "Batman Begins" : {
+                "2021-10-24T10:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-25T12:00" : {
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-25T17:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-26T14:00" : {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "The Prestige" : {
+                "2021-10-26T14:00" : {
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            },
+            "Inception" : {
+                "2021-10-24T10:00": {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "silver": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    },
+                    "bronze": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                },
+                "2021-10-26T12:00" : {
+                    "gold": {
+                        "front": 30,
+                        "middle": 30,
+                        "rear": 30
+                    }
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cinema.Controller.LoginController">
+   <children>
+      <Label layoutX="245.0" layoutY="45.0" text="Fancy Cinemas">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="192.0" text="Login">
+         <font>
+            <Font name="Helvetica" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginUsername" layoutX="180.0" layoutY="250.0" promptText="Username" />
+      <PasswordField fx:id="loginPassword" layoutX="180.0" layoutY="296.0" promptText="Password" />
+      <Button fx:id="login" layoutX="182.0" layoutY="348.0" mnemonicParsing="false" onAction="#loginButtonOnAction" text="Login" />
+      <Line endX="42.749969482421875" endY="94.38629150390625" layoutX="337.0" layoutY="170.0" startX="42.75" startY="-18.938522338867188" />
+      <Label layoutX="371.0" layoutY="273.0" text="OR" />
+      <Label layoutX="411.0" layoutY="192.0" text="Register">
+         <font>
+            <Font name="Helvetica" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="registerUsername" layoutX="414.0" layoutY="250.0" promptText="Username" />
+      <PasswordField fx:id="registerPassword" layoutX="414.0" layoutY="296.0" promptText="Password" />
+      <Button fx:id="register" layoutX="416.0" layoutY="348.0" mnemonicParsing="false" onAction="#registerButtonOnAction" text="Register" />
+      <Hyperlink fx:id="enterAsGuest" layoutX="176.0" layoutY="406.0" onAction="#enterAsGuestOnAction" text="Enter As Guest" underline="true">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="180.0" layoutY="385.0" text="Don't Have an Account?" />
+      <Line endX="42.749969482421875" endY="94.38629150390625" layoutX="337.0" layoutY="318.0" startX="42.75" startY="-18.938522338867188" />
+      <Label fx:id="loginFailed" layoutX="13.0" layoutY="326.0" prefHeight="17.0" prefWidth="361.0" />
+      <Label fx:id="registerFailed" layoutX="414.0" layoutY="326.0" prefHeight="17.0" prefWidth="330.0" />
+   </children>
+</AnchorPane>
